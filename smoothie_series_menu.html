@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SEJUK</title>
+
+    <!-- link bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav
+      class="navbar navbar-expand-lg fixed-top px-md-5 px-sm-4 py-2 navbar-dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand text-white fw-semibold" href="index.html">
+          <img
+            src="asset/logoEsSejuk.png"
+            alt="Logo"
+            width="50"
+            height="50"
+            class="d-inline-block align-text-middle"
+          />
+          SEJUK
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link text-white fw-medium" href="index.html">Home</a>
+            <a class="nav-link fw-medium" href="index.html#tentang-kami"
+              >Tentang kami</a
+            >
+            <a class="nav-link fw-medium" href="index.html#menu">Menu</a>
+            <a class="nav-link fw-medium" href="index.html#mitra">Kemitraan</a>
+            <a class="nav-link fw-medium" href="membership.html">Membership</a>
+            <a class="nav-link fw-medium" href="#footer">Kontak</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- menu section start -->
+    <section id="menu" class="bg-body-secondary mt-5 py-5">
+      <div class="container py-5">
+        <h1 class="text-center fw-semibold pb-5">Smoothies Series</h1>
+        <div class="row justify-content-center">
+          <!-- card 1 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 px-sm-3">
+            <div class="card">
+              <img
+                src="asset/magentha_smoothies.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Magentha</h5>
+                <p>Rp.22.000</p>
+
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-bs-toggle="modal"
+                  data-bs-target="#card1"
+                >
+                  Pesan Sekarang
+                </button>
+                <div
+                  class="modal fade"
+                  id="card1"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="card1Label"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="card1Label">
+                          Pesan Sekarang
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <img
+                          src="asset/magentha_smoothies.jpg"
+                          class="img-fluid img-thumbnail mb-3"
+                          alt=""
+                        />
+                        <h3>Magentha</h3>
+                        <p>Rp.22.000</p>
+                        <p class="card-text">
+                          Smoothie series, Magentha, adalah minuman segar
+                          berbasis buah dengan campuran stroberi, nanas, dan
+                          bubuk matcha yang dicampur rata. Menawarkan cita rasa
+                          manis stroberi, segar nanas, dan aroma unik dari
+                          matcha. Biasanya disajikan dingin dengan es batu
+                          sebagai minuman penyegar.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Batal
+                        </button>
+                        <a
+                          href="https://wa.me/6285226428266?text=Halo%2C%20saya%20ingin%20pesan%20Magentha"
+                          target="_blank"
+                          class="btn btn-success"
+                          >Pesan
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 px-sm-3">
+            <div class="card">
+              <img
+                src="asset/bumblebee_smothies.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Bumblebee</h5>
+                <p>Rp.21.000</p>
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-bs-toggle="modal"
+                  data-bs-target="#card2"
+                >
+                  Pesan Sekarang
+                </button>
+                <div
+                  class="modal fade"
+                  id="card2"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="card2Label"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="card2Label">
+                          Pesan Sekarang
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <img
+                          src="asset/bumblebee_smothies.jpg"
+                          class="img-fluid img-thumbnail mb-3"
+                          alt=""
+                        />
+                        <h3>Bumblebee</h3>
+                        <p>Rp.21.000</p>
+                        <p class="card-text">
+                          Smoothie series, BumbleBee, adalah minuman segar
+                          berbasis buah dengan campuran pisang, madu, dan almond
+                          milk. Menawarkan rasa manis dan kaya nutrisi dari
+                          pisang, ditambah kelembutan dan cita rasa manis alami
+                          dari madu, disajikan dingin sebagai minuman sehat dan
+                          menyegarkan.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Batal
+                        </button>
+                        <a
+                          href="https://wa.me/6285226428266?text=Halo%2C%20saya%20ingin%20pesan%20Bumblebee"
+                          target="_blank"
+                          class="btn btn-success"
+                          >Pesan
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 px-sm-3">
+            <div class="card">
+              <img
+                src="asset/wetsunday_smoothies.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Wet Sunday</h5>
+                <p>Rp.21.000</p>
+
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-bs-toggle="modal"
+                  data-bs-target="#card3"
+                >
+                  Pesan Sekarang
+                </button>
+                <div
+                  class="modal fade"
+                  id="card3"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="card3Label"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="card3Label">
+                          Pesan Sekarang
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <img
+                          src="asset/wetsunday_smoothies.jpg"
+                          class="img-fluid img-thumbnail mb-3"
+                          alt=""
+                        />
+                        <h3>Wet Sunday</h3>
+                        <p>Rp.21.000</p>
+                        <p class="card-text">
+                          Smoothie series, WetSunday, adalah minuman segar
+                          berbasis buah dengan campuran blueberry, strawberry,
+                          dan yogurt. Menyajikan cita rasa manis blueberry,
+                          segar strawberry, dan kelembutan yogurt, disajikan
+                          dingin sebagai minuman sehat yang cocok untuk
+                          menikmati pada hari Minggu yang santai.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Batal
+                        </button>
+                        <a
+                          href="https://wa.me/6285226428266?text=Halo%2C%20saya%20ingin%20pesan%20WetSunday"
+                          target="_blank"
+                          class="btn btn-success"
+                          >Pesan
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 px-sm-3">
+            <div class="card">
+              <img src="asset/magnolia.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Magnolia</h5>
+                <p>Rp.22.000</p>
+
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-bs-toggle="modal"
+                  data-bs-target="#card5"
+                >
+                  Pesan Sekarang
+                </button>
+                <div
+                  class="modal fade"
+                  id="card5"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="card5Label"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="card5Label">
+                          Pesan Sekarang
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <img
+                          src="asset/magnolia.jpg"
+                          class="img-fluid img-thumbnail mb-3"
+                          alt=""
+                        />
+                        <h3>Magnolia</h3>
+                        <p>Rp.22.000</p>
+                        <p class="card-text">
+                          Smoothie series, Magnolia, adalah minuman segar
+                          berbasis buah dengan campuran mangga, nanas, dan
+                          kelapa yang dicampur rata. Menawarkan rasa manis dan
+                          segar dari mangga dan nanas, serta aroma lembut dari
+                          kelapa. Disajikan dingin sebagai minuman sehat dan
+                          menyegarkan.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Batal
+                        </button>
+                        <a
+                          href="https://wa.me/6285226428266?text=Halo%2C%20saya%20ingin%20pesan%20Magnolia"
+                          target="_blank"
+                          class="btn btn-success"
+                          >Pesan</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tombol kembali ke index.html -->
+      <div class="container text-center mt-4 mb-4">
+        <a
+          href="index.html"
+          class="btn text-white p-2"
+          style="background-color: var(--primary-color)"
+        >
+          <i class="fas fa-chevron-left me-2"></i> Kembali ke Beranda
+        </a>
+      </div>
+    </section>
+    <!-- menu section end -->
+
+    <!-- footer start -->
+    <footer id="footer" class="bg-dark text-white overflow-x-hidden">
+      <div class="container-fluid py-5">
+        <div class="row g-5 px-5">
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-4 mb-md-0">
+            <img
+              src="asset/sejuk-nobg-font.png"
+              width="200"
+              height="70"
+              alt="Sejuk Logo"
+            />
+            <p class="mt-3">
+              Sejuk adalah tempat nongkrong baru dengan nuansa baru di daerah
+              Yogyakarta.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Kontak Kami</h5>
+            <p>Nomor: (+62) 851-6200-7755<br />Email: sejuk@gmail.com</p>
+            <h5>Sosial Media:</h5>
+            <div>
+              <a href="https://www.facebook.com/sejukindo/" target="_blank"
+                ><img
+                  src="asset/facebook-svgrepo-com.svg"
+                  alt=""
+                  width="50"
+                  height="50"
+                  class="bg-body"
+              /></a>
+              <a href="https://www.instagram.com/sejukindo/" target="_blank"
+                ><img
+                  src="asset/instagram-svgrepo-com.svg"
+                  alt=""
+                  width="50"
+                  height="50"
+                  class="bg-body ms-2"
+              /></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Lokasi</h5>
+
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe
+                  class="gmap_iframe"
+                  width="80%"
+                  frameborder="0"
+                  scrolling="no"
+                  marginheight="0"
+                  marginwidth="0"
+                  src="https://maps.google.com/maps?width=388&amp;height=224&amp;hl=en&amp;q=Sejuk - Smoothies & Milk&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                ></iframe>
+                <p>
+                  Condongcatur, Kabupaten Sleman,<br />Daerah Istimewa
+                  Yogyakarta
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Kritik dan Saran</h5>
+            <p>Silahkan berikan ulasanmu :</p>
+
+            <!-- menggunakan website formsfree untuk menerima pesan -->
+            <form action="https://formspree.io/f/xeqyrrry" method="POST">
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Masukkan Nama Anda"
+                  name="name"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Masukkan alamat email Anda"
+                  name="email"
+                />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  class="form-control"
+                  rows="3"
+                  placeholder="Masukkan ulasan Anda"
+                  name="messege"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" target="blank">
+                Kirim
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="bg-black py-4 text-center">
+        <p class="mb-0">© 2022 Sejuk. All rights reserved.</p>
+      </div>
+    </footer>
+    <!--  Footer end -->
+
+    <!-- link bootstrap -->
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

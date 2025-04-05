@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SEJUK</title>
+
+    <!-- link bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav
+      class="navbar navbar-expand-lg fixed-top px-md-5 px-sm-4 py-2 navbar-dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand text-white fw-semibold" href="index.html">
+          <img
+            src="asset/logoEsSejuk.png"
+            alt="Logo"
+            width="50"
+            height="50"
+            class="d-inline-block align-text-middle"
+          />
+          SEJUK
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link text-white fw-medium" href="index.html">Home</a>
+            <a class="nav-link fw-medium" href="index.html#tentang-kami"
+              >Tentang kami</a
+            >
+            <a class="nav-link fw-medium" href="index.html#menu">Menu</a>
+            <a class="nav-link fw-medium" href="index.html#mitra">Kemitraan</a>
+            <a class="nav-link fw-medium" href="membership.html">Membership</a>
+            <a class="nav-link fw-medium" href="#footer">Kontak</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- menu section start -->
+    <section id="menu" class="bg-body-secondary mt-5 py-5">
+      <div class="container py-5">
+        <h1 class="text-center fw-semibold pb-5">Frappe Series</h1>
+        <div class="row justify-content-center">
+          <!-- card 1 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 px-sm-3">
+            <div class="card">
+              <img
+                src="asset/cookiesAndCream.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Cookies & Cream</h5>
+                <p>Rp.23.000</p>
+
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-bs-toggle="modal"
+                  data-bs-target="#card1"
+                >
+                  Pesan Sekarang
+                </button>
+                <div
+                  class="modal fade"
+                  id="card1"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="card1Label"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="card1Label">
+                          Pesan Sekarang
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <img
+                          src="asset/cookiesAndCream.jpg"
+                          class="img-fluid img-thumbnail mb-3"
+                          alt=""
+                        />
+                        <h3>Cookies & Cream</h3>
+                        <p>Rp.23.000</p>
+                        <p class="card-text">
+                          Seri minuman "cookies and cream" dalam frappe adalah
+                          campuran es serut, susu, bubuk kopi, dan cookies
+                          cokelat yang dihancurkan. Menyajikan rasa manis dari
+                          es krim dan kelezatan cookies, sering disajikan dengan
+                          hiasan krim atau taburan cookies di atasnya.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Batal
+                        </button>
+                        <a
+                          href="https://wa.me/6285226428266?text=Halo%2C%20saya%20ingin%20pesan%20Cookies%20%26%20Cream"
+                          type="button"
+                          class="btn btn-success"
+                          target="blank"
+                          >Pesan</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 px-sm-3">
+            <div class="card">
+              <img src="asset/doubleChoco.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Double Choco</h5>
+                <p>Rp.23.000</p>
+
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-bs-toggle="modal"
+                  data-bs-target="#card2"
+                >
+                  Pesan Sekarang
+                </button>
+                <div
+                  class="modal fade"
+                  id="card2"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="card2Label"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="card2Label">
+                          Pesan Sekarang
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <img
+                          src="asset/doubleChoco.jpg"
+                          class="img-fluid img-thumbnail mb-3"
+                          alt=""
+                        />
+                        <h3>Double Choco</h3>
+                        <p>Rp.23.000</p>
+                        <p class="card-text">
+                          Frappe series minuman double choco adalah minuman yang
+                          menyegarkan dengan campuran es serut, susu, bubuk
+                          cokelat, dan sirup cokelat ganda. Menyajikan cita rasa
+                          cokelat yang intens dan kaya akan coklat, sering
+                          disajikan dengan taburan cokelat atau krim di atasnya.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Batal
+                        </button>
+                        <a
+                          href="https://wa.me/6285226428266?text=Halo%2C%20saya%20ingin%20pesan%20Cookies%20%26%20Cream"
+                          type="button"
+                          class="btn btn-success"
+                          target="blank"
+                          >Pesan</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 px-sm-3">
+            <div class="card">
+              <img src="asset/matchaa.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Matcha</h5>
+                <p>Rp.22.000</p>
+
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-bs-toggle="modal"
+                  data-bs-target="#card3"
+                >
+                  Pesan Sekarang
+                </button>
+                <div
+                  class="modal fade"
+                  id="card3"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="card3Label"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="card3Label">
+                          Pesan Sekarang
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <img
+                          src="asset/matchaa.jpg"
+                          class="img-fluid img-thumbnail mb-3"
+                          alt=""
+                        />
+                        <h3>Matcha</h3>
+                        <p>Rp.22.000</p>
+                        <p class="card-text">
+                          Frappe series minuman matcha adalah minuman yang
+                          menyegarkan dengan es serut, susu, dan bubuk matcha.
+                          Menawarkan cita rasa unik dari teh hijau Jepang yang
+                          kaya dan segar, sering disajikan dengan hiasan whipped
+                          cream atau taburan bubuk matcha di atasnya.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Batal
+                        </button>
+                        <a
+                          href="https://wa.me/6285226428266?text=Halo%2C%20saya%20ingin%20pesan%20Cookies%20%26%20Cream"
+                          type="button"
+                          class="btn btn-success"
+                          target="blank"
+                          >Pesan</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 px-sm-3">
+            <div class="card">
+              <img src="asset/tokyo.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Tokyo</h5>
+                <p>Rp.22.000</p>
+
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-bs-toggle="modal"
+                  data-bs-target="#card4"
+                >
+                  Pesan Sekarang
+                </button>
+                <div
+                  class="modal fade"
+                  id="card4"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="card4Label"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="card4Label">
+                          Pesan Sekarang
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <img
+                          src="asset/tokyo.jpg"
+                          class="img-fluid img-thumbnail mb-3"
+                          alt=""
+                        />
+                        <h3>Tokyo</h3>
+                        <p>Rp.22.000</p>
+                        <p class="card-text">
+                          Frappe series minuman Tokyo Red Velvet adalah minuman
+                          menyegarkan dengan es serut, susu, ekstrak red velvet,
+                          dan sirup vanila. Menyajikan cita rasa kaya dari red
+                          velvet dengan sentuhan manis vanila, sering disajikan
+                          dengan hiasan whipped cream atau taburan cokelat di
+                          atasnya.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Batal
+                        </button>
+                        <a
+                          href="https://wa.me/6285226428266?text=Halo%2C%20saya%20ingin%20pesan%20Cookies%20%26%20Cream"
+                          type="button"
+                          class="btn btn-success"
+                          target="_blank"
+                          >Pesan</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 5 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 px-sm-3">
+            <div class="card">
+              <img src="asset/sweetPotato.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Sweat Potato</h5>
+                <p>Rp.22.000</p>
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-bs-toggle="modal"
+                  data-bs-target="#card5"
+                >
+                  Pesan Sekarang
+                </button>
+                <div
+                  class="modal fade"
+                  id="card5"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="card5Label"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="card5Label">
+                          Pesan Sekarang
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <img
+                          src="asset/sweetPotato.jpg"
+                          class="img-fluid img-thumbnail mb-3"
+                          alt=""
+                        />
+                        <h3>Sweat Potato</h3>
+                        <p>Rp.22.000</p>
+                        <p class="card-text">
+                          Frappe series minuman Sweet Potato Taro adalah minuman
+                          menyegarkan dengan es serut, susu, bubuk ubi ungu, dan
+                          sirup taro. Menawarkan cita rasa manis dan gurih dari
+                          ubi ungu dengan sentuhan taro yang khas, sering
+                          disajikan dengan hiasan whipped cream atau taburan
+                          bubuk taro di atasnya.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Batal
+                        </button>
+                        <a
+                          href="https://wa.me/6285226428266?text=Halo%2C%20saya%20ingin%20pesan%20Choco%20Banana"
+                          target="_blank"
+                          class="btn btn-success"
+                          >Pesan
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 6 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4 px-sm-3">
+            <div class="card">
+              <img src="asset/chocoBanana.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Choco Banana</h5>
+                <p>Rp.24.000</p>
+
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-bs-toggle="modal"
+                  data-bs-target="#card6"
+                >
+                  Pesan Sekarang
+                </button>
+                <div
+                  class="modal fade"
+                  id="card6"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="card6Label"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="card6Label">
+                          Pesan Sekarang
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <img
+                          src="asset/chocoBanana.jpg"
+                          class="img-fluid img-thumbnail mb-3"
+                          alt=""
+                        />
+                        <h3>Choco Banana</h3>
+                        <p>Rp.24.000</p>
+                        <p class="card-text">
+                          Frappe series minuman Choco Banana adalah minuman es
+                          serut dengan susu, bubuk cokelat, dan potongan pisang.
+                          Menawarkan rasa manis pisang yang segar dan gurih dan
+                          rasa cokelat yang begitu manis, disajikan dengan
+                          hiasan whipped cream atau taburan cokelat di atasnya.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Batal
+                        </button>
+                        <a
+                          href="https://wa.me/6285226428266?text=Halo%2C%20saya%20ingin%20pesan%20Choco%20Banana"
+                          target="_blank"
+                          class="btn btn-success"
+                          >Pesan
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Tombol kembali ke index.html -->
+      <div class="container text-center mt-4 mb-4">
+        <a
+          href="index.html"
+          class="btn text-white p-2"
+          style="background-color: var(--primary-color)"
+        >
+          <i class="fas fa-chevron-left me-2"></i> Kembali ke Beranda
+        </a>
+      </div>
+    </section>
+    <!-- menu section end -->
+
+    <!-- footer start -->
+    <footer id="footer" class="bg-dark text-white overflow-x-hidden">
+      <div class="container-fluid py-5">
+        <div class="row g-5 px-5">
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-4 mb-md-0">
+            <img
+              src="asset/sejuk-nobg-font.png"
+              width="200"
+              height="70"
+              alt="Sejuk Logo"
+            />
+            <p class="mt-3">
+              Sejuk adalah tempat nongkrong baru dengan nuansa baru di daerah
+              Yogyakarta.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Kontak Kami</h5>
+            <p>Nomor: (+62) 851-6200-7755<br />Email: sejuk@gmail.com</p>
+            <h5>Sosial Media:</h5>
+            <div>
+              <a href="https://www.facebook.com/sejukindo/" target="_blank"
+                ><img
+                  src="asset/facebook-svgrepo-com.svg"
+                  alt=""
+                  width="50"
+                  height="50"
+                  class="bg-body"
+              /></a>
+              <a href="https://www.instagram.com/sejukindo/" target="_blank"
+                ><img
+                  src="asset/instagram-svgrepo-com.svg"
+                  alt=""
+                  width="50"
+                  height="50"
+                  class="bg-body ms-2"
+              /></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Lokasi</h5>
+
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe
+                  class="gmap_iframe"
+                  width="80%"
+                  frameborder="0"
+                  scrolling="no"
+                  marginheight="0"
+                  marginwidth="0"
+                  src="https://maps.google.com/maps?width=388&amp;height=224&amp;hl=en&amp;q=Sejuk - Smoothies & Milk&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                ></iframe>
+                <p>
+                  Condongcatur, Kabupaten Sleman,<br />Daerah Istimewa
+                  Yogyakarta
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Kritik dan Saran</h5>
+            <p>Silahkan berikan ulasanmu :</p>
+            
+            <!-- menggunakan website formsfree untuk menerima pesan -->
+            <form action="https://formspree.io/f/xeqyrrry" method="POST">
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Masukkan Nama Anda"
+                  name="name"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Masukkan alamat email Anda"
+                  name="email"
+                />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  class="form-control"
+                  rows="3"
+                  placeholder="Masukkan ulasan Anda"
+                  name="messege"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" target="blank">
+                Kirim
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="bg-black py-4 text-center">
+        <p class="mb-0">© 2022 Sejuk. All rights reserved.</p>
+      </div>
+    </footer>
+    <!--  Footer end -->
+
+    <!-- link bootstrap -->
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
